@@ -17,6 +17,12 @@ html {
   line-height: 1.4;
 }
 
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -267,7 +273,58 @@ p.section-image-description {
  * Create the portfolio section on the main page
  */
 
+#projectShowCase {
+  padding: 50px 0;
+}
 
+.mini-portfolio-container {
+  padding: 15px 0;
+
+}
+
+.hover-action:hover {
+  border: 1px solid #003f5c;
+}
+
+.mini-portfolio-image-holder {
+  width: 90%;
+  margin: 0 auto;
+  height: 248px;
+  box-shadow:  0 0 10px  rgba(0,0,0,0.6);
+  background-color: #003f5c;
+}
+
+.mini-portfolio-description {
+  margin: 45px 35px;
+}
+
+.mini-portfolio-description h4 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: #000000;
+}
+
+.mini-portfolio-description p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin: 20px 0;
+  padding: 0 0px;
+
+}
+
+.button-container {
+  text-align: center;
+}
+
+.default-ar-button {
+  background-color: #900048;
+  border: 0;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  padding: 15px 35px;
+}
 
 
 
