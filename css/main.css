@@ -92,6 +92,10 @@ textarea {
 *
 */
 
+section {
+    padding-top: 50px;
+}
+
 /* ==========================================================================
    DELETE ON PRODUCTION
    ========================================================================== */
@@ -308,7 +312,7 @@ p.section-image-description {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
   margin: 20px 0;
-  padding: 0 0px;
+  padding: 0 0;
 
 }
 
@@ -326,6 +330,30 @@ p.section-image-description {
   padding: 15px 35px;
 }
 
+
+/*
+ * Represent hobby in a circle
+ */
+
+.skill-box {
+  margin: 20px 0;
+}
+
+.skill-circle img {
+
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow:  0 0 10px  rgba(0,0,0,0.6);
+    background-color: #222222;
+}
+
+.skill-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #4e4d4d;
+  margin: 15px 0;
+}
 
 
 /* ==========================================================================
