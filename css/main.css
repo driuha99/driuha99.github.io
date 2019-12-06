@@ -96,6 +96,11 @@ section {
     padding-top: 50px;
 }
 
+a {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
 /* ==========================================================================
    DELETE ON PRODUCTION
    ========================================================================== */
@@ -392,6 +397,77 @@ p.section-image-description {
 
 
 /* ==========================================================================
+   Footer
+   ========================================================================== */
+
+footer {
+  background-color: #1a1a1a;
+  padding-top: 90px;
+  padding-bottom: 20px;
+  margin-top: 110px;
+}
+
+
+
+.footer-title-box {
+  margin-bottom: 40px;
+  /*text-align: center;*/
+}
+
+.footer-title-box h6 {
+  font-family: 'Roboto', sans-serif;
+  color: #f0f0f0;
+}
+
+
+.footer-links-box ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-links-box ul li {
+  margin: 5px 0;
+}
+
+
+.footer-links-box ul li a {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #f0f0f0;
+  text-decoration: none;
+}
+
+.footer-links-box ul li a:hover {
+  color: #900048;
+}
+
+.copyright {
+  margin-top:  40px;
+}
+
+.copyright p {
+  font-family: 'Roboto', sans-serif;
+  color: #f0f0f0;
+  font-size: 13px;
+  line-height: 1.7em;
+  margin: 0;
+}
+
+.footer-testimonials a {
+  color: #f0f0f0;
+  text-decoration: none;
+}
+
+.footer-testimonials a:hover {
+  color: #900048;
+}
+
+
+
+
+
+/* ==========================================================================
    Helper classes
    ========================================================================== */
 
@@ -405,6 +481,10 @@ p.section-image-description {
 
 .move-from-title {
   margin-top: 90px;
+}
+
+.wrapper {
+  min-height: 100%;
 }
 
 /*
