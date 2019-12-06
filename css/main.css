@@ -335,11 +335,11 @@ p.section-image-description {
  * Represent hobby in a circle
  */
 
-.skill-box {
+.hobby-box {
   margin: 20px 0;
 }
 
-.skill-circle img {
+.hobby-circle img {
 
     width: 150px;
     height: 150px;
@@ -348,11 +348,46 @@ p.section-image-description {
     background-color: #222222;
 }
 
-.skill-title {
+.hobby-title {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   color: #4e4d4d;
   margin: 15px 0;
+}
+
+
+/*
+ * Skills Box Styling
+ */
+
+.skill-home-box {
+  margin: 0 0 40px 20px;
+  width: 90%;
+}
+
+.skill-title-box h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  margin: 5px 10px;
+  padding-top: 10px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.title-boxs {
+  display: inline-block;
+}
+
+.skill-description-box {
+  margin-top: 10px;
+}
+
+.skill-description-box p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  color: #262626;
+  padding: 10px 5px;
 }
 
 
@@ -366,6 +401,10 @@ p.section-image-description {
 
 .hidden {
   display: none !important;
+}
+
+.move-from-title {
+  margin-top: 90px;
 }
 
 /*
