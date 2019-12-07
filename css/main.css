@@ -476,6 +476,73 @@ li.selected-toggle-button {
 
 
 
+/*
+* Contact me
+*/
+
+.contacts-social-media-container  {
+
+}
+
+.contacts-social-media-container h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.contacts-social-media-container ul {
+  list-style: none;
+  margin: 20px 0;
+  padding: 0;
+}
+
+.contacts-social-media-container ul li {
+  font-family: 'Roboto', sans-serif;
+  margin: 10px 0;
+}
+
+.contacts-social-media-container ul li a {
+  text-decoration: none;
+}
+
+.contacts-social-media-container ul li a:hover {
+  color: #900048;
+}
+
+.contact-form-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.input-container {
+  margin: 20px 0;
+}
+
+.input-container input, textarea {
+  width: 100%;
+  height: 40px;
+  padding-left: 20px;
+  font-weight: 300;
+  border-radius: 5px;
+  border: 1px solid #900048;
+}
+
+.input-container textarea {
+  min-height: 200px;
+}
+
+.button-form-container input {
+  background-color: #900048;
+  border: 1px solid #900048;
+  border-radius: 3px;
+  color: #f0f0f0;
+  padding: 15px;
+  float:right;
+}
+
+
+
 
 /* ==========================================================================
    TABLE
