@@ -396,6 +396,24 @@ p.section-image-description {
 }
 
 
+
+.rounded-big-image-box img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow:  0 0 10px  rgba(0,0,0,0.6);
+  background-color: #222222;
+}
+
+.rounded-big-image-box {
+    margin: 80px 0 25px 0;
+}
+
+.about-me-description {
+    padding: 20px 10px;
+}
+
+
 /* ==========================================================================
    Footer
    ========================================================================== */
