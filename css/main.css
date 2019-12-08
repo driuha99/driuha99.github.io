@@ -120,6 +120,31 @@ a {
   padding: 0.2em 0;
 }
 
+
+/* ==========================================================================
+   Slider
+   ========================================================================== */
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 4.5s;
+    animation-name: fade;
+    animation-duration: 4.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+
+
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
