@@ -374,6 +374,11 @@ p.section-image-description {
   box-shadow:  0 0 10px  rgba(0,0,0,0.6);
 }
 
+.default-ar-button a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
 
 /*
  * Represent hobby in a circle
